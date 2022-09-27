@@ -1,0 +1,5 @@
+Zn=str(input("Введите знак: "))
+print("Введите строку: ")
+S=str(input())
+rez=min(S.split(),key=len)
+print(""+Zn+"" + rez+ ""+Zn+"")
